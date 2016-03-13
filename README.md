@@ -1,6 +1,44 @@
 # iMoUDIDChangerApp
 change your device UDID within Xcode 
 
+## Requirements
+
+* disable rootless
+
+Turning it off
+
+1. Reboot your Mac and hold down <code>Command + R</code> together after you hear the boot sound. This will boot you into Recovery Mode.
+
+2. Go to the top menu bar and select the Utilities dropdown menu and open Terminal.
+3. Type the following and your Mac will automatically reboot:
+
+    ```bash
+$ csrutil disable; reboot
+```
+
+4. Once rebooted open Terminal and type the following to ensure it was disabled:
+
+    ```bash
+$ csrutil status
+```
+
+5. It should say:
+
+    ```bash
+$ csrutil status
+System Integrity Protection status: disabled
+```
+
+* [Opee](https://github.com/alexzielenski/Opee)
+
+## Installation
+
+* install Opee using <code>opeeinstaller.sh/code> which insde <code>Opee installer</code> Folder
+
+* place `iMoUDIDChanger.bundle` to /Library/Opee/Extensions/iMoUDIDChanger.bundle
+
+
+
 ## Usage
 
 1. run iMoUDIDChangerApp.app
@@ -11,14 +49,6 @@ change your device UDID within Xcode
 6. now in your project go to( TARGETS -> YOURAPP -> GENERAL ) then Fix Issue under ( Team field )
 7. Done ( your new UDID is now saved in your Free developer account )
 
-
-## Requirements
-
-[Opee](https://github.com/alexzielenski/Opee)
-
-## Installation
-
-* place `iMoUDIDChanger.bundle` to /Library/Opee/Extensions/iMoUDIDChanger.bundle
 
 ## Author
 
