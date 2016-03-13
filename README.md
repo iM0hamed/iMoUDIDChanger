@@ -33,7 +33,7 @@ System Integrity Protection status: disabled
 
 ## Installation
 
-* install Opee using <code>opeeinstaller.sh/code> which insde <code>Opee installer</code> Folder
+* install Opee using <code>opeeinstaller.sh/code> which insde Opee installer Folder
 
 * place `iMoUDIDChanger.bundle` to /Library/Opee/Extensions/iMoUDIDChanger.bundle
 
