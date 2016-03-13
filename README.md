@@ -38,7 +38,6 @@ System Integrity Protection status: disabled
 * place `iMoUDIDChanger.bundle` to /Library/Opee/Extensions/iMoUDIDChanger.bundle
 
 
-
 ## Usage
 
 1. run iMoUDIDChangerApp.app
