@@ -12,20 +12,20 @@ Turning it off
 2. Go to the top menu bar and select the Utilities dropdown menu and open Terminal.
 3. Type the following and your Mac will automatically reboot:
 
-    ```bash
-$ csrutil disable; reboot
+```
+csrutil disable; reboot
 ```
 
 4. Once rebooted open Terminal and type the following to ensure it was disabled:
 
-    ```bash
-$ csrutil status
+```
+csrutil status
 ```
 
 5. It should say:
 
-    ```bash
-$ csrutil status
+```
+csrutil status
 System Integrity Protection status: disabled
 ```
 
